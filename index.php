@@ -1,3 +1,39 @@
 <?php
-
+// 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Generator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">Video Generator</h1>
+
+        <form id="videoForm" class="video-form">
+            <div class="form-group">
+                <label for="head" class="form-label">Heading</label>
+                <input type="text" id="head" class="form-input" placeholder="Enter a heading" required>
+            </div>
+
+            <div class="form-group">
+                <label for="text" class="form-label">Your Video Idea</label>
+                <input type="text" id="text" class="form-input" placeholder="Enter your video idea" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Generate Video</button>
+        </form>
+
+        <div class="result" id="response1"></div>
+        <div class="result" id="response2"></div>
+        <div class="result" id="response3"></div>
+    </div>
+
+    <script src="assets/application/sam.js"></script>
+</body>
+
+</html>
