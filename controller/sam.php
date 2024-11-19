@@ -1,7 +1,10 @@
 <?php
-header("Content-Type: application/json");
+//header("Content-Type: application/json");
 
 use Simon\Controller\VideoController;
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
 $videoController = new VideoController();
-$videoController->createVideo();
+echo $videoController->createVideo();
+}
