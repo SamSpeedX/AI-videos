@@ -1,5 +1,6 @@
 <?php
-require 'controller/sam.php';
+header('location: controller/sam.php');
+exit;
 ?>
 <!DOCTYPE html>
 <html lang="en">
