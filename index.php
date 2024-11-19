@@ -33,7 +33,7 @@ session_start();
         <div class="result" id="response3"></div>
     </div>
 
-    <script src="assets/application/sam.js"></script>
+    <script src="application/sam.js"></script>
 </body>
 
 </html>
