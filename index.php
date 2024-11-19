@@ -14,7 +14,7 @@ require 'controller/sam.php';
     <div class="container">
         <h1 class="page-title">Video Generator</h1>
 
-        <form id="videoForm" class="video-form">
+        <form action="" id="videoForm" class="video-form">
             <div class="form-group">
                 <label for="head" class="form-label">Heading</label>
                 <input type="text" id="head" class="form-input" placeholder="Enter a heading" required>
